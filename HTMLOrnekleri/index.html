@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>ilk html denemesi</title>
+    <style>
+        #p1 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 12px;
+            color:chartreuse;
+            background-color:blueviolet;
+        }
+
+    
+    </style>
+
+       
+   <script>
+    window.onload = function ()
+    {
+        const button = document.getElementById('p1')
+        button.addEventListener('click',alarmUret)
+
+        function alarmUret () {
+            alert('Selamlar');
+        }
+    }
+   
+</script>
+
+</head>
+<body>
+   <p id="p1"> React kursumuza hoş geldiniz.</p>
+   <button onclick="javascript:alert('deneme 2')">Buton 1</button>
+
+   <div id="idbilgisi" name='namebilgisi' style="" onclick=""> div içerik </div>
+    
+   <table style="border:solid 1px;">
+    <tr><td>1 cell 1</td><td> cell 2</td></tr>
+    <tr><td>2- cell 1</td><td>2- cell 2</td></tr>
+
+   </table>
+
+   <b style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; size:15px;">bold</b>
+   <i>italik</i>
+   <img src="./logo512.png">
+
+
+</body>
+</html>
